@@ -10,7 +10,7 @@ const server = new ApolloServer({
     typeDefs: [typeDef,capitulos.typeDef,numerales.typeDef],
     resolvers:[capitulos.resolvers,numerales.resolvers],
     engine:{
-        reportSchema:false,
+        reportSchema:true,
         variant:"current"
     }
 })
