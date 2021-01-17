@@ -1,0 +1,26 @@
+{
+  "name": "fratelli",
+  "version": "1.0.0",
+  "description": "Fratelli Tutti GraphQL API",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd src && babel-watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexis Poveda",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "apollo-server": "^2.19.2",
+    "babel": "^6.23.0",
+    "babel-watch": "^7.3.0",
+    "graphql": "^15.4.0",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
