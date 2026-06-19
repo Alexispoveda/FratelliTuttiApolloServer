@@ -7,6 +7,9 @@
     "start": "cd src && babel-watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "author": "Alexis Poveda",
   "license": "ISC",
   "dependencies": {
@@ -17,7 +20,7 @@
     "babel-watch": "^7.3.0",
     "graphql": "^15.4.0",
     "sequelize": "^6.3.5",
-    "sqlite3": "^5.0.1"
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
